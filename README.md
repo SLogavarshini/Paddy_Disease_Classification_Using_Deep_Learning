@@ -1,1 +1,6 @@
 # Paddy_Disease_Classification_Using_Deep_Learning
+The Paddy Disease Classification project leverages deep learning techniques to identify and classify diseases in paddy crops using image-based analysis. A Convolutional Neural Network (CNN) model was developed to detect ten different paddy crop diseases, including bacterial leaf blight, blast, brown spot, and tungro. The dataset consists of approximately 13,380 labeled images, preprocessed using resizing, grayscale conversion, and normalization to enhance model performance.
+
+The CNN model was trained using TensorFlow and Keras, with a structured pipeline including convolutional layers for feature extraction, max-pooling layers for dimensionality reduction, and fully connected layers for classification. The model demonstrated an 8% improvement in accuracy compared to traditional machine learning methods like SVM and Random Forest.
+
+The system was designed to assist farmers by providing early disease detection, enabling timely intervention and improved crop management. The model was integrated with an intelligent database that suggests remedies and recommended fertilizers based on the predicted disease. Development was conducted using Python, with OpenCV for image preprocessing and Matplotlib for visualization.
